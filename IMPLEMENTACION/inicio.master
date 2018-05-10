@@ -51,26 +51,18 @@
 			<section id="slideshow">
 				<div class="slides_ container">
 				    <div id="slides">
-					    <div><a href="#"><img src="imagenes/slideshets/Yosemite2.jpg" alt="Imagen 1"></a></div>
-					    <div><a href="#"><img src="imagenes/slideshets/Yosemite4.jpg" alt="Imagen 2"></a></div>
+					    <div><a href="#"><img src="imagenes/slideshets/Yosemite1.png" alt="Imagen 1"></a></div>
+					    <div><a href="#"><img src="imagenes/slideshets/Yosemite2.png" alt="Imagen 2"></a></div>
 					</div>
 				</div>
 			</section>
 
-			<section id="bienvenidos">
-				<article>
-					<hgroup><h2>Bienvenido a nuestro sitio Web</h2></hgroup>
-					<p>
-						<ul>
-							<li>+ Morbi sit amet dui sed magna posuere aliquam.</li>
-							<li>+ Ut eget nisl tincidunt, posuere elit ut, varius eros.</li>
-							<li>+ Vestibulum sodales odio vitae sapien dapibus, id venenatis lectus luctus.</li>
-							<li>+ Mauris non enim vel neque molestie blandit.</li>
-							<li>+ Praesent ut eros tempus, vehicula mi ultricies, pellentesque enim.</li>
-						</ul>
-					</p>
-				</article>
-			</section>
+			
+                <asp:ContentPlaceHolder id="seccionBienvenidos" runat="server">
+       
+                    </asp:ContentPlaceHolder>
+				
+			
 
 			<section id="contenido">
                     <asp:ContentPlaceHolder id="Contenido" runat="server">
@@ -116,7 +108,9 @@
 		</footer>
 
 		<!--Derechos de autor-->
-		<div id="copyright"><p>Copyright: Josué Girón - iiK' Soluciones ® - Tel. 4246-3482</p></div>
+		<div class="copyright"><p>Copyright: Josué Girón - iiK' Soluciones ® - Tel. 4246-3482</p></div>
+    <div class="copyright"><p>Icons made by <a href="https://www.flaticon.es/autores/roundicons" title="Cancelar">Cancelar</a> from <a href="https://www.flaticon.es/"     title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"     title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p></div>
+
 
 	</section>
     

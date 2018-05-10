@@ -2,6 +2,24 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
+
+<asp:Content ID="Content4" ContentPlaceHolderID="seccionBienvenidos" runat="Server">
+     <section id="bienvenidos">
+    <article>
+					<hgroup><h2>Bienvenido a nuestro sitio Web</h2></hgroup>
+					<p>
+						<ul>
+							<li>+ Morbi sit amet dui sed magna posuere aliquam.</li>
+							<li>+ Ut eget nisl tincidunt, posuere elit ut, varius eros.</li>
+							<li>+ Vestibulum sodales odio vitae sapien dapibus, id venenatis lectus luctus.</li>
+							<li>+ Mauris non enim vel neque molestie blandit.</li>
+							<li>+ Praesent ut eros tempus, vehicula mi ultricies, pellentesque enim.</li>
+						</ul>
+					</p>
+				</article>
+            </section>
+</asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="Contenido" runat="Server">
     <article>
         <hgroup>
